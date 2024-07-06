@@ -7,7 +7,7 @@ function Course() {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get("https://muskan-bookapp.onrender.com/book");
+        const res = await axios.get("https://muskan-bookapp-gq9v.onrender.com/book");
         console.log(res.data);
         setBook(res.data);
       } catch (error) {
